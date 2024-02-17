@@ -61,6 +61,22 @@
     overflow: hidden;
 }
 
+.cta-section h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.cta-section h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cta-section p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
 @media (max-width: 992px) {
     .img-fluid {
         width: 50%;
