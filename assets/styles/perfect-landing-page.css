@@ -1,0 +1,50 @@
+:root {
+    --peach-fuzz-1: #FFAD99;
+    --peach-fuzz-2: #FFD099;
+    --peach-fuzz-3: #FFBE99;
+    --peach-fuzz-4: #FF9B99;
+    --peach-fuzz-5: #FFDE99;
+}
+
+#hero {
+    background: linear-gradient(-45deg, var(--peach-fuzz-1), var(--peach-fuzz-2), var(--peach-fuzz-3), var(--peach-fuzz-4), var(--peach-fuzz-5));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+
+#buy-button {
+    background-color: #5B5980;
+    color: white;
+    border: #5B5980;
+}
+
+#download-button {
+    background-color: none;
+    color: #5B5980;
+}
+
+#buy-button:hover {
+    background-color: #36354d;
+    color: white;
+    border: #36354d;
+}
+
+#download-button:hover {
+    background-color: #36354d;
+    color: white;
+    border-color: #36354d;
+}
+
